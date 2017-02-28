@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: ibmiotnewlytraining
+  host: ibmiotnewlytrainings
+  disk_quota: 1024M
+  services:
+  - ibmiotnewlytraining-cloudantNoSQLDB
+  - ibmiotnewlytraining-iotf-service
